@@ -18,11 +18,11 @@ social: true # includes social icons at the bottom of the page
 
 I am currently a 4th year PhD student at the Department of Applied Mathematics and Theoretical Physics (DAMTP) at the University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb. My research focuses on generative modeling, with a particular emphasis on diffusion models.
 
-In addition to my primary research on diffusion models, I am also deeply interested in disentangled representation learning and the extraction of data manifold properties from pretrained generative models, such as diffusion models and normalizing flows. Recently, I have been exploring the fascinating area of Schrödinger Bridges.
+Recently, I have become deeply interested in disentangled representation learning and the extraction of data manifold properties from pretrained generative models, including diffusion models and normalizing flows. Additionally, I have been exploring the fascinating area of Schrödinger Bridges.
 
 ### Education
 - **University of Cambridge**, Department of Applied Mathematics (DAMTP), PhD in Generative AI (Oct 2020 - present)
-- **University of Oxford**, Department of Statistics, Visiting Research Student (Oct 2023 - Jan 2023)
+- **University of Oxford**, Department of Statistics, Visiting Research Student (Oct 2023 - Jan 2024)
 - **University of Cambridge**, Department of Engineering, MEng in Information and Computer Engineering (Oct 2016 - Oct 2020), First Class Honours
 
 ### Work Experience
