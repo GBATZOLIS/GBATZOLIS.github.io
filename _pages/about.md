@@ -21,14 +21,39 @@ I am currently a 4th year PhD student at the Department of Applied Mathematics a
 Recently, I have become deeply interested in disentangled representation learning and the extraction of data manifold properties from pretrained generative models, including diffusion models and normalizing flows. Additionally, I have been exploring the fascinating area of Schrödinger Bridges.
 
 ### Education
-- **University of Cambridge**, Department of Applied Mathematics (DAMTP), PhD in Generative AI (Oct 2020 - present)
-- **University of Oxford**, Department of Statistics, Visiting Research Student (Oct 2023 - Jan 2024)
-- **University of Cambridge**, Department of Engineering, MEng in Information and Computer Engineering (Oct 2016 - Oct 2020), First Class Honours
+<div class="education-section">
+  <div class="education-entry">
+    <div class="education-label">
+      University of Cambridge
+      <div class="education-date">(Oct 2020 - present)</div>
+    </div>
+    <div class="education-content">
+      <b>Department of Applied Mathematics</b><br>
+       PhD in Generative AI
+    </div>
+  </div>
+  <div class="education-entry">
+    <div class="education-label">
+      University of Oxford
+      <div class="education-date">(Oct 2023 - Jan 2024)</div>
+    </div>
+    <div class="education-content">
+      <b>Department of Statistics</b><br>
+      Visiting Research Student
+    </div>
+  </div>
+  <div class="education-entry">
+    <div class="education-label">
+      University of Cambridge
+      <div class="education-date">(Oct 2016 - Oct 2020)</div>
+    </div>
+    <div class="education-content">
+      <b>Department of Engineering</b><br>
+      MEng in Information and Computer Engineering
+    </div>
+  </div>
+</div>
 
-### Work Experience
-- **Google DeepMind**, Research Collaboration (Feb 2024 - present)
-- **Huawei Technologies Research & Development (UK) Ltd**, Research Internship in AI Theory Group (July 2022 - Oct 2022)
-- **MediaTek Research UK Ltd**, AI Research Internship (June 2020 - Oct 2020)
 
 ### Publications
 
