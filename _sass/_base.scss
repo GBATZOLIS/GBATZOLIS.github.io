@@ -1123,3 +1123,49 @@ ninja-keys {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+// Add these styles at the end of the _base.scss file
+
+.publication-section {
+  margin-bottom: 20px;
+}
+
+.publication-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.publication-label {
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px;
+  flex-shrink: 0; /* Prevents the label from shrinking */
+  width: 100px; /* Fixed width for alignment */
+  text-align: center; /* Center the text within the label */
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-content b {
+  font-size: 1.1em;
+}
+
+.publication-content a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.publication-content a:hover {
+  text-decoration: underline;
+}
+
+.publication-label.placeholder {
+  background-color: transparent;
+}
