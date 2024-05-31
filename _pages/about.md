@@ -9,7 +9,7 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Email: <a href="mailto:gb511@cam.ac.uk">gb511@cam.ac.uk</a></p>
+    
 
 #news: true # includes a list of news items
 latest_posts: false # add this line to disable latest posts
@@ -34,26 +34,51 @@ Recently, I have become deeply interested in disentangled representation learnin
   </div>
   <div class="education-entry">
     <div class="education-label">
-      University of Oxford
-      <div class="education-date">(Oct 2023 - Jan 2024)</div>
-    </div>
-    <div class="education-content">
-      <b>Department of Statistics</b><br>
-      Visiting Research Student
-    </div>
-  </div>
-  <div class="education-entry">
-    <div class="education-label">
       University of Cambridge
       <div class="education-date">(Oct 2016 - Oct 2020)</div>
     </div>
     <div class="education-content">
       <b>Department of Engineering</b><br>
-      MEng in Information and Computer Engineering
+      MEng in Information and Computer Engineering, First Class Honours
     </div>
   </div>
 </div>
 
+### Research Visits
+<div class="research-visit-section">
+  <div class="research-visit-entry">
+    <div class="research-visit-label">
+      University of Oxford
+      <div class="research-visit-date">(Oct 2023 - Jan 2024)</div>
+    </div>
+    <div class="research-visit-content">
+      <b>Department of Statistics</b><br>
+      Visited Doucet-Deligiannidis (D^2) group
+    </div>
+  </div>
+</div>
+
+### Work Experience
+<div class="work-section">
+  <div class="work-entry">
+    <div class="work-label">Google DeepMind</div>
+    <div class="work-content">
+      <b>Research Collaboration</b> (Feb 2024 - present)
+    </div>
+  </div>
+  <div class="work-entry">
+    <div class="work-label">Huawei Technologies Research & Development (UK) Ltd</div>
+    <div class="work-content">
+      <b>AI Research Internship</b> (July 2022 - Oct 2022)
+    </div>
+  </div>
+  <div class="work-entry">
+    <div class="work-label">MediaTek Research UK Ltd</div>
+    <div class="work-content">
+      <b>AI Research Internship</b> (June 2020 - Oct 2020)
+    </div>
+  </div>
+</div>
 
 ### Publications
 
@@ -119,4 +144,4 @@ Recently, I have become deeply interested in disentangled representation learnin
 </div>
 
 ### Contact
-Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/georgios-batzolis-92577b128/) or [GitHub](https://github.com/GBATZOLIS).
+Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/georgios-batzolis-92577b128/) or [email](mailto:gb511@cam.ac.uk).

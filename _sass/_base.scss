@@ -1170,32 +1170,33 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: transparent;
 }
 
-.education-section, .work-section {
+.education-section, .work-section, .research-visit-section {
   margin-bottom: 2em;
   list-style-type: none; /* Remove bullet points */
   padding: 0; /* Remove padding */
 }
 
-.education-entry, .work-entry {
+.education-entry, .work-entry, .research-visit-entry {
   display: flex;
   margin-bottom: 1em;
 }
 
-.education-label, .work-label {
+.education-label, .work-label, .research-visit-label {
   flex: 0 0 250px; /* Adjust the width as needed */
   font-weight: bold;
 }
 
-.education-date {
+.education-date, .research-visit-date {
   font-weight: normal;
   font-size: 0.9em; /* Adjust font size as needed */
 }
 
-.education-content, .work-content {
+.education-content, .work-content, .research-visit-content {
   flex: 1;
 }
 
 /* Remove the yellow bullet points */
-.education-label::before, .work-label::before {
+.education-label::before, .work-label::before, .research-visit-label::before {
   content: none;
 }
+
