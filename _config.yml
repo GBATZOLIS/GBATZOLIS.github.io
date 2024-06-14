@@ -13,7 +13,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, personal-website, portfolio, academic-website, generative modeling, diffusion models, VAEs
+keywords: Georgios Batzolis, diffusion models, intrinsic dimension, dimensionality reduction, VAEs, conditional diffusion models, normalizing flows, disentangled representation learning, generative modeling, Cambridge, PhD, applied mathematics
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌟 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
