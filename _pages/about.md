@@ -86,31 +86,42 @@ Recently, I have become deeply interested in disentangled representation learnin
   <div class="publication-entry">
     <div class="publication-label">ICML 2024</div>
     <div class="publication-content">
-      <b>Your diffusion model secretly knows the dimension of the data manifold</b>, <u>Georgios Batzolis</u>*, Jan Stanczuk*, Teo Deveney, Carola-Bibiane Schönlieb, 
-      <i>arXiv preprint arXiv:2212.12611</i>, 2022
+      <b>Your diffusion model secretly knows the dimension of the data manifold</b>, Jan Stanczuk*, <u>Georgios Batzolis</u>*, Teo Deveney, Carola-Bibiane Schönlieb, 
+      <i>ICML 2024</i>
       <br>
-      <a href="https://arxiv.org/abs/2212.12611">[PDF]</a>
+      <a href="https://openreview.net/pdf?id=a0XiA6v256">[Published Version]</a> 
+      <a href="https://arxiv.org/abs/2212.12611">[arXiv]</a> 
+      <a href="https://github.com/GBATZOLIS/ID-diff">[Official Code]</a> 
+      <a href="https://github.com/GBATZOLIS/ID-diff-clean">[Demo/Clean Code]</a> 
+      <a href="https://gbatzolis.github.io/ID-diff/">[Official Webpage]</a>
     </div>
   </div>
+
   <div class="publication-entry">
     <div class="publication-label">FoDS</div>
     <div class="publication-content">
-      <b>CAFLOW: conditional autoregressive flows</b>, <u>Georgios Batzolis</u>, Marcello Carioni, Christian Etmann, Soroosh Afyouni, Zoe Kourtzi, Carola-Bibiane Schönlieb, 
-      <i>arXiv preprint arXiv:2106.02531</i>, 2021
+      <b>CAFLOW: conditional autoregressive flows</b>, <u>Georgios Batzolis</u>, Marcello Carioni, Christian Etmann, Soroosh Afyouni, Zoe Kourtzi, Carola-Bibiane Schönlieb, <i>Foundations of Data Science, AIMS, 2024</i>
       <br>
-      <a href="https://arxiv.org/abs/2106.02531">[PDF]</a>
+      Doi: 10.3934/fods.2024028
+      <br>
+      <a href="https://openreview.net/pdf?id=a0XiA6v256">[Published Version]</a> 
+      <a href="https://arxiv.org/abs/2106.02531">[arXiv]</a> 
+      <a href="https://github.com/GBATZOLIS/CAFLOW">[Official Code]</a>
     </div>
   </div>
+  
   <div class="publication-entry">
     <div class="publication-label">AAAI 2022</div>
     <div class="publication-content">
       <b>How to distribute data across tasks for meta-learning?</b>, Alexandru Cioba, Michael Bromberg, Qian Wang, Ritwik Niyogi, <u>Georgios Batzolis</u>, Jezabel Garcia, Da-shan Shiu, Alberto Bernacchia, 
-      <i>Proceedings of the AAAI Conference on Artificial Intelligence</i>, 2022
+      <i>Proceedings of the AAAI Conference on Artificial Intelligence, 2022</i>
       <br>
       <a href="https://arxiv.org/abs/2103.08463">[PDF]</a>
     </div>
   </div>
 </div>
+
+
 
 ### arXiv
 <div class="publication-section">
