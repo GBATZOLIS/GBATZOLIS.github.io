@@ -125,7 +125,6 @@ Recently, I have become deeply interested in disentangled representation learnin
 
 ### arXiv
 <div class="publication-section">
-<div class="publication-section">
   <div class="publication-entry">
     <div class="publication-label placeholder"></div>
     <div class="publication-content">
@@ -165,6 +164,9 @@ Recently, I have become deeply interested in disentangled representation learnin
     </div>
   </div>
 </div>
+
+<!-- Add an extra line break for spacing -->
+<br>
 
 ### Contact
 Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/georgios-batzolis-92577b128/) or [email](mailto:gb511@cam.ac.uk).
