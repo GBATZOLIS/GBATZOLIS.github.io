@@ -6,7 +6,7 @@ nav: false
 math: true
 ---
 
-<img src="{{ site.baseurl }}/assets/img/ScoreVAE/ffhq.png" alt="FFHQ Image" style="width: 100%; max-width: 800px; height: auto;">
+<img src="/assets/img/ScoreVAE/ffhq.png" alt="FFHQ Image" style="width: 100%; max-width: 800px; height: auto;">
 
 
 ## Overview
@@ -22,9 +22,9 @@ The ScoreVAE framework also simplifies the training dynamics by decoupling the t
 
 ## Experimental Results
 <div style="height: 20px;"></div> <!-- This creates a 40px gap -->
-<img src="{{ site.baseurl }}/assets/img/ScoreVAE/cifar10.png" alt="FFHQ Image" style="width: 100%; max-width: 800px; height: auto;">
+<img src="/assets/img/ScoreVAE/cifar10.png" alt="FFHQ Image" style="width: 100%; max-width: 800px; height: auto;">
 <div style="height: 40px;"></div> <!-- This creates a 40px gap -->
-<img src="{{ site.baseurl }}/assets/img/ScoreVAE/celebA.png" alt="FFHQ Image" style="width: 100%; max-width: 800px; height: auto;">
+<img src="/assets/img/ScoreVAE/celebA.png" alt="FFHQ Image" style="width: 100%; max-width: 800px; height: auto;">
 
 <div style="height: 20px;"></div> <!-- This creates a 40px gap -->
 ## Derivation of the Training Objective
