@@ -139,11 +139,12 @@ Recently, I have become deeply interested in disentangled representation learnin
   <div class="publication-entry">
     <div class="publication-label placeholder"></div>
     <div class="publication-content">
-      <b>Variational Diffusion Auto-encoder: Latent Space Extraction from Pre-trained Diffusion Models</b>, <u>Georgios Batzolis</u>*, Jan Stanczuk*, Carola-Bibiane Schönlieb, 
+      <b><a href="/projects/scorevae">Variational Diffusion Auto-encoder: Latent Space Extraction from Pre-trained Diffusion Models</a></b>, <u>Georgios Batzolis</u>*, Jan Stanczuk*, Carola-Bibiane Schönlieb, 
       <i>arXiv preprint arXiv:2304.12141</i>, 2023
       <br>
       <a href="https://arxiv.org/abs/2304.12141">[PDF]</a>
     </div>
+
   </div>
   <div class="publication-entry">
     <div class="publication-label placeholder"></div>

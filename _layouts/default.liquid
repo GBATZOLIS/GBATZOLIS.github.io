@@ -12,7 +12,28 @@
       {% endif %}
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
+    
     {% include head.liquid %}
+
+    <!-- MathJax Configuration -->
+    {% if page.math %}
+    <script type="text/x-mathjax-config">
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        },
+        options: {
+          processHtmlClass: 'mathjax_process',
+          ignoreHtmlClass: 'no-mathjax'
+        }
+      };
+    </script>
+    
+    <!-- Load MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    {% endif %}
+    
   </head>
 
   <!-- Body -->
@@ -64,7 +85,6 @@
     {% include scripts/typograms.liquid %}
     {% include scripts/misc.liquid %}
     {% include scripts/badges.liquid %}
-    {% include scripts/mathjax.liquid %}
     {% include scripts/pseudocode.liquid %}
     {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
