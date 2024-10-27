@@ -9,4 +9,4 @@ _site
 Gemfile.lock
 assets/libs/
 node_modules/
-vendorassets/js/mathjax
+assets/js/mathjax
