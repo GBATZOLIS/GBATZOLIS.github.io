@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'sass-embedded', '~> 1.77'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
