@@ -128,7 +128,7 @@ Recently, I have become deeply interested in disentangled representation learnin
   <div class="publication-entry">
     <div class="publication-label placeholder"></div>
     <div class="publication-content">
-      <b>Score-based Pullback Riemannian Geometry</b>, Willem Diepeveen*, <u>Georgios Batzolis</u>*, Zakhar Shumaylov, Carola-Bibiane Schönlieb, 
+      <b><a href="/projects/riemanniangeometry">Score-based Pullback Riemannian Geometry</a></b>, Willem Diepeveen*, <u>Georgios Batzolis</u>*, Zakhar Shumaylov, Carola-Bibiane Schönlieb, 
       <i>arXiv preprint arXiv:2410.01950</i>, 2024
       <br>
       <a href="https://arxiv.org/pdf/2410.01950">[PDF]</a> 

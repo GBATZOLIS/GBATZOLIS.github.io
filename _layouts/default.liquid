@@ -30,11 +30,14 @@
       };
     </script>
     
-    <!-- Load MathJax from CDN for live site -->
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
-
-    <!-- Commented local MathJax loading for local testing -->
-    <!-- <script src="assets/js/mathjax/es5/tex-mml-chtml.js" async></script> -->
+    <!-- Conditionally load MathJax based on environment -->
+    {% if jekyll.environment == "development" %}
+      <!-- Load local MathJax for local development -->
+      <script src="/assets/js/mathjax/es5/tex-mml-chtml.js" async></script>
+    {% else %}
+      <!-- Load MathJax from CDN for production -->
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    {% endif %}
     {% endif %}
     
   </head>
