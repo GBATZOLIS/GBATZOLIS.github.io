@@ -35,3 +35,17 @@ Explore some of my research projects below, each with a brief overview and a lin
         In this work, we introduce a variation of the VAE framework that overcomes limitations of conventional VAEs and allows for latent space extraction from pretrained diffusion models.
     </div>
 </div>
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div style="flex: 0 0 120px; margin-right: 20px;">
+        <a href="/projects/id_diff">
+            <img src="/assets/img/id_diff/teaser.png" alt="Intrinsic Dimension Teaser" style="width: 100%; max-width: 120px; height: auto; border-radius: 8px;">
+        </a>
+    </div>
+    <div>
+        <a href="/projects/id_diff" style="color: #1a73e8; font-weight: bold;">
+            <strong>Diffusion Models Encode the Intrinsic Dimension of Data Manifolds</strong>
+        </a><br>
+        In this work, we prove that diffusion models encode the intrinsic dimension of the data and propose a novel method to estimate the intrinsic dimension from a trained diffusion model.
+    </div>
+</div>

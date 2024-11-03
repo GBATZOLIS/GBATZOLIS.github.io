@@ -86,7 +86,7 @@ Recently, I have become deeply interested in disentangled representation learnin
   <div class="publication-entry">
     <div class="publication-label">ICML 2024</div>
     <div class="publication-content">
-      <b>Your diffusion model secretly knows the dimension of the data manifold</b>, Jan Stanczuk*, <u>Georgios Batzolis</u>*, Teo Deveney, Carola-Bibiane Schönlieb, 
+      <b><a href="/projects/id_diff">Diffusion Models Encode the Intrinsic Dimension of Data Manifolds</a></b>, Jan Stanczuk*, <u>Georgios Batzolis</u>*, Teo Deveney, Carola-Bibiane Schönlieb, 
       <i>ICML 2024</i>
       <br>
       <a href="https://openreview.net/pdf?id=a0XiA6v256">[Published Version]</a> 
