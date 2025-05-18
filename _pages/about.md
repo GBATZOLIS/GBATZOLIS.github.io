@@ -17,7 +17,7 @@ social: true
 
 I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I recently completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
 
-My current research explores the intersection of Riemannian geometry and generative modeling. I focus on constructing data-driven Riemannian metrics that reveal the intrinsic structure of data. These learned metrics enable more meaningful distance measures aligned with semantic similarity, and support optimization directly on the data manifold—facilitating controllable generation and the solution of inverse problems.
+My current research explores the connection between Riemannian geometry and generative modeling. I focus on constructing data-driven Riemannian metrics that uncover the intrinsic structure of data. These metrics allow us to construct distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
 
 
 ### Education
