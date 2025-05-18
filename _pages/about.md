@@ -29,7 +29,7 @@ My current research explores the connection between Riemannian geometry and gene
     </div>
     <div class="education-content">
       <b>Department of Applied Mathematics</b><br>
-      PhD in Generative AI
+      PhD in Machine Learning
     </div>
   </div>
   <div class="education-entry">
