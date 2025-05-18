@@ -17,7 +17,7 @@ social: true
 
 I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I recently completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
 
-My current research explores the connection between Riemannian geometry and generative models. I am working on constructing data-driven Riemannian metrics that accurately reflect the intrinsic geometry of data. This line of work aims to improve our understanding of data geometry, enabling the development of better distance functions—a key limitation in current models when capturing similarity between datapoints. Furthermore, data-driven Riemannian metrics can enable optimization directly on the data manifold, which opens up new possibilities for controllable generation and more principled solutions to inverse problems.
+My current research explores the intersection of Riemannian geometry and generative modeling. I focus on constructing data-driven Riemannian metrics that reveal the intrinsic structure of data. These learned metrics enable more meaningful distance measures aligned with semantic similarity, and support optimization directly on the data manifold—facilitating controllable generation and the solution of inverse problems.
 
 
 ### Education
@@ -93,7 +93,7 @@ My current research explores the connection between Riemannian geometry and gene
     <div class="publication-label">ICML 2025</div>
     <div class="publication-content">
       <b><a href="/projects/riemanniangeometry">Score-based Pullback Riemannian Geometry</a></b>, Willem Diepeveen*, <u>Georgios Batzolis</u>*, Zakhar Shumaylov, Carola-Bibiane Schönlieb  
-      <i>ICML 2025 (to be presented in Vancouver, Canada)</i>
+      <i>ICML 2025</i>
       <br>
       <a href="https://arxiv.org/pdf/2410.01950">[PDF]</a> 
       <a href="https://github.com/GBATZOLIS/Score-Based-Pullback-Riemannian-Geometry">[Code]</a>
