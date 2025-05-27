@@ -95,7 +95,7 @@ My current research explores the connection between Riemannian geometry and gene
       <b><a href="/projects/riemanniangeometry">Score-based Pullback Riemannian Geometry</a></b>, Willem Diepeveen*, <u>Georgios Batzolis</u>*, Zakhar Shumaylov, Carola-Bibiane Schönlieb  
       <i>ICML 2025</i>
       <br>
-      <a href="https://arxiv.org/pdf/2410.01950">[PDF]</a> 
+      <a href="https://openreview.net/pdf?id=AJN5btaqNk">[Published Version]</a> 
       <a href="https://github.com/GBATZOLIS/Score-Based-Pullback-Riemannian-Geometry">[Code]</a>
     </div>
   </div>
