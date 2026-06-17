@@ -19,7 +19,7 @@ I am a postdoctoral researcher at the Department of Engineering, University of C
 
 My current research focuses on **diffusion language models (DLMs)**—methods for text generation that aim to close the gap with autoregressive models (LLMs). In our recent work, *CoBit* (Continuous Bitstream Diffusion), we diffuse over fixed-width binary bitstreams. Based on the GenPPL–entropy protocol, CoBit advances the state of the art among open-source DLMs.
 
-In parallel, I work on the connection between Riemannian geometry and diffusion models, constructing data-driven Riemannian metrics that uncover the intrinsic structure of data. These metrics yield distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
+In parallel, I study the connection between Riemannian geometry and diffusion models. A central theme is constructing data-driven Riemannian metrics that uncover the intrinsic geometric structure of data. These metrics yield distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
 
 
 ### Publications
