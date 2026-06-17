@@ -17,7 +17,7 @@ social: true
 
 I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I previously completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
 
-My current research focuses on **diffusion language models (DLMs)**—methods for text generation that aim to close the gap with autoregressive models (LLMs). In our recent work, *CoBit* (Continuous Bitstream Diffusion), we diffuse over binary bitstreams. Based on the GenPPL–entropy protocol, CoBit advances the state of the art among open-source DLMs.
+My current research focuses on **diffusion language models (DLMs)**—methods for text generation that aim to close the gap with autoregressive models (LLMs). In our recent work, *CoBit* (Continuous Bitstream Diffusion), we diffuse over bitstreams. Based on the GenPPL–entropy protocol, CoBit advances the state of the art among open-source DLMs.
 
 In parallel, I study the connection between Riemannian geometry and diffusion models. A central theme is constructing data-driven Riemannian metrics that uncover the intrinsic geometric structure of data. These metrics yield distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
 
