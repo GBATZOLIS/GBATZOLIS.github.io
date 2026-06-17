@@ -17,7 +17,7 @@ social: true
 
 I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I previously completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
 
-My current research focuses on **diffusion language models**—I develop continuous diffusion methods for text generation that aim to close the gap with autoregressive models. My recent work, *Continuous Bitstream Diffusion*, models text as a continuous diffusion process over binary bitstreams and achieves strong generative perplexity for diffusion-based language generation.
+My current research focuses on **diffusion language models**—developing continuous diffusion methods for text generation that close the gap with autoregressive models. In our recent work, *CoBit* (Continuous Bitstream Diffusion), we model text as a continuous diffusion process over fixed-width binary bitstreams. Read jointly over the quality–diversity curve, CoBit establishes a superior generative-perplexity–entropy (GenPPL–entropy) Pareto frontier over open-source continuous (FLM, LangFlow, ELF) and discrete (MDLM, Duo, SEDD) diffusion language model baselines in the near-real-data-entropy regime, at both 130M and 462M parameters, and reaches the autoregressive quality regime on LM1B while using up to 4× fewer sampling steps than prior baselines.
 
 In parallel, I continue to work on the **connection between Riemannian geometry and diffusion models**, constructing data-driven Riemannian metrics that uncover the intrinsic structure of data. These metrics yield distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
 
@@ -155,8 +155,8 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
   <div class="publication-entry">
     <div class="publication-label placeholder"></div>
     <div class="publication-content">
-      <b>Towards Closing the Autoregressive Gap in Language Modeling via Entropy-Gated Continuous Bitstream Diffusion</b>, <u>Georgios Batzolis</u>, Mark Girolami, Luca Ambrogioni  
-      <i>arXiv preprint arXiv:2605.07013</i>, 2026. We model text as a continuous diffusion process over fixed-width binary bitstreams and report strong generative perplexity for diffusion-based language generation.
+      <b>CoBit: Language Modeling with Bitstream Diffusion</b>, <u>Georgios Batzolis</u>, Mark Girolami, Luca Ambrogioni  
+      <i>arXiv preprint arXiv:2605.07013</i>, 2026. CoBit models text as a continuous diffusion process over fixed-width binary bitstreams and establishes a superior GenPPL–entropy Pareto frontier over open-source continuous (FLM, LangFlow, ELF) and discrete (MDLM, Duo, SEDD) DLM baselines in the near-real-data-entropy regime, reaching the autoregressive quality regime on LM1B with up to 4× fewer sampling steps.
       <br>
       <a href="https://arxiv.org/pdf/2605.07013v2">[PDF]</a> 
       <a href="https://github.com/GBATZOLIS/BitstreamDiffusion">[Code]</a>
