@@ -71,7 +71,7 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
   <div class="work-entry">
     <div class="work-label">Google DeepMind</div>
     <div class="work-content">
-      <b>Research Collaboration</b> (Feb 2024 - present)
+      <b>Research Collaboration</b> (Feb 2024 - Sep 2025)
     </div>
   </div>
   <div class="work-entry">
