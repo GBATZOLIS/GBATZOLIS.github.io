@@ -15,9 +15,11 @@ latest_posts: false
 social: true
 ---
 
-I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I recently completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
+I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I previously completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
 
-My current research explores the connection between Riemannian geometry and generative modeling. I focus on constructing data-driven Riemannian metrics that uncover the intrinsic structure of data. These metrics allow us to construct distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
+My current research focuses on **diffusion language models**—I develop continuous diffusion methods for text generation that aim to close the gap with autoregressive models. My recent work, *Continuous Bitstream Diffusion*, models text as a continuous diffusion process over binary bitstreams and achieves strong generative perplexity for diffusion-based language generation.
+
+In parallel, I continue to work on the **connection between Riemannian geometry and diffusion models**, constructing data-driven Riemannian metrics that uncover the intrinsic structure of data. These metrics yield distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
 
 
 ### Education
@@ -90,6 +92,16 @@ My current research explores the connection between Riemannian geometry and gene
 
 <div class="publication-section">
   <div class="publication-entry">
+    <div class="publication-label">SPIGM @ ICML</div>
+    <div class="publication-content">
+      <b>Information-Guided Noise Allocation for Efficient Diffusion Training</b>, Gabriel Raya, Bac Nguyen, <u>Georgios Batzolis</u>, Yuhta Takida, Dejan Stancevic, Naoki Murata, Chieh-Hsin Lai, Yuki Mitsufuji, Luca Ambrogioni  
+      <i>SPIGM Workshop, ICML 2026</i>
+      <br>
+      <a href="https://arxiv.org/abs/2602.18647">[arXiv]</a>
+    </div>
+  </div>
+
+  <div class="publication-entry">
     <div class="publication-label">ICML 2025</div>
     <div class="publication-content">
       <b><a href="/projects/riemanniangeometry">Score-based Pullback Riemannian Geometry</a></b>, Willem Diepeveen*, <u>Georgios Batzolis</u>*, Zakhar Shumaylov, Carola-Bibiane Schönlieb  
@@ -140,6 +152,17 @@ My current research explores the connection between Riemannian geometry and gene
 ### arXiv
 
 <div class="publication-section">
+  <div class="publication-entry">
+    <div class="publication-label placeholder"></div>
+    <div class="publication-content">
+      <b>Towards Closing the Autoregressive Gap in Language Modeling via Entropy-Gated Continuous Bitstream Diffusion</b>, <u>Georgios Batzolis</u>, Mark Girolami, Luca Ambrogioni  
+      <i>arXiv preprint arXiv:2605.07013</i>, 2026. We model text as a continuous diffusion process over fixed-width binary bitstreams and report strong generative perplexity for diffusion-based language generation.
+      <br>
+      <a href="https://arxiv.org/pdf/2605.07013v2">[PDF]</a> 
+      <a href="https://github.com/GBATZOLIS/BitstreamDiffusion">[Code]</a>
+    </div>
+  </div>
+
   <div class="publication-entry">
     <div class="publication-label placeholder"></div>
     <div class="publication-content">
