@@ -17,82 +17,27 @@ social: true
 
 I am a postdoctoral researcher at the Department of Engineering, University of Cambridge, working with Prof. Mark Girolami. I previously completed my PhD at the Department of Applied Mathematics and Theoretical Physics (DAMTP), University of Cambridge, under the supervision of Prof. Carola-Bibiane Schönlieb.
 
-My current research focuses on **diffusion language models**—developing continuous diffusion methods for text generation that close the gap with autoregressive models. In our recent work, *CoBit* (Continuous Bitstream Diffusion), we model text as a continuous diffusion process over fixed-width binary bitstreams. Read jointly over the quality–diversity curve, CoBit establishes a superior generative-perplexity–entropy (GenPPL–entropy) Pareto frontier over open-source continuous (FLM, LangFlow, ELF) and discrete (MDLM, Duo, SEDD) diffusion language model baselines in the near-real-data-entropy regime, at both 130M and 462M parameters, and reaches the autoregressive quality regime on LM1B while using up to 4× fewer sampling steps than prior baselines.
+My current research focuses on **diffusion language models**—developing continuous diffusion methods for text generation that close the gap with autoregressive models. In our recent work, *CoBit* (Continuous Bitstream Diffusion), we model text as a continuous diffusion process over fixed-width binary bitstreams, establishing a superior GenPPL–entropy Pareto frontier over open-source diffusion language model baselines near real-data entropy and reaching the autoregressive quality regime on LM1B with up to 4× fewer sampling steps.
 
 In parallel, I continue to work on the **connection between Riemannian geometry and diffusion models**, constructing data-driven Riemannian metrics that uncover the intrinsic structure of data. These metrics yield distance functions that better reflect semantic relationships between data points and enable optimization directly on the data manifold—paving the way for novel methods in controllable generation and inverse problem solving.
 
-
-### Education
-<div class="education-section">
-  <div class="education-entry">
-    <div class="education-label">
-      University of Cambridge
-      <div class="education-date">(Oct 2020 - Mar 2025)</div>
-    </div>
-    <div class="education-content">
-      <b>Department of Applied Mathematics</b><br>
-      PhD in Machine Learning
-    </div>
-  </div>
-  <div class="education-entry">
-    <div class="education-label">
-      University of Cambridge
-      <div class="education-date">(Oct 2016 - Oct 2020)</div>
-    </div>
-    <div class="education-content">
-      <b>Department of Engineering</b><br>
-      MEng in Information and Computer Engineering, First Class Honours
-    </div>
-  </div>
-</div>
-
-### Research Visits
-<div class="research-visit-section">
-  <div class="research-visit-entry">
-    <div class="research-visit-label">
-      University of Oxford
-      <div class="research-visit-date">(Oct 2023 - Jan 2024)</div>
-    </div>
-    <div class="research-visit-content">
-      <b>Department of Statistics</b><br>
-      Visited Doucet-Deligiannidis (D<sup>2</sup>) group
-    </div>
-  </div>
-</div>
-
-### Work Experience
-<div class="work-section">
-  <div class="work-entry">
-    <div class="work-label">University of Cambridge</div>
-    <div class="work-content">
-      <b>Postdoctoral Researcher</b> (Mar 2025 - present)
-    </div>
-  </div>
-  <div class="work-entry">
-    <div class="work-label">Google DeepMind</div>
-    <div class="work-content">
-      <b>Research Collaboration</b> (Feb 2024 - Sep 2025)
-    </div>
-  </div>
-  <div class="work-entry">
-    <div class="work-label">Huawei Technologies Research & Development (UK) Ltd</div>
-    <div class="work-content">
-      <b>AI Research Internship</b> (July 2022 - Oct 2022)
-    </div>
-  </div>
-  <div class="work-entry">
-    <div class="work-label">MediaTek Research UK Ltd</div>
-    <div class="work-content">
-      <b>AI Research Internship</b> (June 2020 - Oct 2020)
-    </div>
-  </div>
-</div>
 
 ### Publications
 
 <div class="publication-section">
   <div class="publication-entry">
-    <div class="publication-label">SPIGM @ ICML</div>
+    <div class="publication-label">arXiv 2026</div>
+    <div class="publication-content">
+      <b>CoBit: Language Modeling with Bitstream Diffusion</b>, <u>Georgios Batzolis</u>, Mark Girolami, Luca Ambrogioni  
+      <i>arXiv preprint arXiv:2605.07013</i>, 2026. CoBit models text as a continuous diffusion process over fixed-width binary bitstreams and establishes a superior GenPPL–entropy Pareto frontier over open-source continuous (FLM, LangFlow, ELF) and discrete (MDLM, Duo, SEDD) DLM baselines in the near-real-data-entropy regime, reaching the autoregressive quality regime on LM1B with up to 4× fewer sampling steps.
+      <br>
+      <a href="https://arxiv.org/pdf/2605.07013v2">[PDF]</a> 
+      <a href="https://github.com/GBATZOLIS/BitstreamDiffusion">[Code]</a>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <div class="publication-label">SPIGM @ ICML 2026</div>
     <div class="publication-content">
       <b>Information-Guided Noise Allocation for Efficient Diffusion Training</b>, Gabriel Raya, Bac Nguyen, <u>Georgios Batzolis</u>, Yuhta Takida, Dejan Stancevic, Naoki Murata, Chieh-Hsin Lai, Yuki Mitsufuji, Luca Ambrogioni  
       <i>SPIGM Workshop, ICML 2026</i>
@@ -127,7 +72,7 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
   </div>
 
   <div class="publication-entry">
-    <div class="publication-label">FoDS</div>
+    <div class="publication-label">FoDS 2024</div>
     <div class="publication-content">
       <b>CAFLOW: conditional autoregressive flows</b>, <u>Georgios Batzolis</u>, Marcello Carioni, Christian Etmann, Soroosh Afyouni, Zoe Kourtzi, Carola-Bibiane Schönlieb  
       <i>Foundations of Data Science, AIMS, 2024</i><br>
@@ -135,6 +80,16 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
       <br>
       <a href="https://arxiv.org/abs/2106.02531">[arXiv]</a> 
       <a href="https://github.com/GBATZOLIS/CAFLOW">[Official Code]</a>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <div class="publication-label">arXiv 2023</div>
+    <div class="publication-content">
+      <b><a href="/projects/scorevae">Variational Diffusion Auto-encoder: Latent Space Extraction from Pre-trained Diffusion Models</a></b>, <u>Georgios Batzolis</u>*, Jan Stanczuk*, Carola-Bibiane Schönlieb  
+      <i>arXiv preprint arXiv:2304.12141</i>, 2023
+      <br>
+      <a href="https://arxiv.org/abs/2304.12141">[PDF]</a>
     </div>
   </div>
 
@@ -147,34 +102,9 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
       <a href="https://arxiv.org/abs/2103.08463">[PDF]</a>
     </div>
   </div>
-</div>
-
-### arXiv
-
-<div class="publication-section">
-  <div class="publication-entry">
-    <div class="publication-label placeholder"></div>
-    <div class="publication-content">
-      <b>CoBit: Language Modeling with Bitstream Diffusion</b>, <u>Georgios Batzolis</u>, Mark Girolami, Luca Ambrogioni  
-      <i>arXiv preprint arXiv:2605.07013</i>, 2026. CoBit models text as a continuous diffusion process over fixed-width binary bitstreams and establishes a superior GenPPL–entropy Pareto frontier over open-source continuous (FLM, LangFlow, ELF) and discrete (MDLM, Duo, SEDD) DLM baselines in the near-real-data-entropy regime, reaching the autoregressive quality regime on LM1B with up to 4× fewer sampling steps.
-      <br>
-      <a href="https://arxiv.org/pdf/2605.07013v2">[PDF]</a> 
-      <a href="https://github.com/GBATZOLIS/BitstreamDiffusion">[Code]</a>
-    </div>
-  </div>
 
   <div class="publication-entry">
-    <div class="publication-label placeholder"></div>
-    <div class="publication-content">
-      <b><a href="/projects/scorevae">Variational Diffusion Auto-encoder: Latent Space Extraction from Pre-trained Diffusion Models</a></b>, <u>Georgios Batzolis</u>*, Jan Stanczuk*, Carola-Bibiane Schönlieb  
-      <i>arXiv preprint arXiv:2304.12141</i>, 2023
-      <br>
-      <a href="https://arxiv.org/abs/2304.12141">[PDF]</a>
-    </div>
-  </div>
-
-  <div class="publication-entry">
-    <div class="publication-label placeholder"></div>
+    <div class="publication-label">arXiv 2022</div>
     <div class="publication-content">
       <b>Non-uniform diffusion models</b>, <u>Georgios Batzolis</u>, Jan Stanczuk, Carola-Bibiane Schönlieb  
       <i>arXiv preprint arXiv:2207.09786</i>, 2022
@@ -184,7 +114,7 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
   </div>
 
   <div class="publication-entry">
-    <div class="publication-label placeholder"></div>
+    <div class="publication-label">arXiv 2021</div>
     <div class="publication-content">
       <b>Conditional image generation with score-based diffusion models</b>, <u>Georgios Batzolis</u>, Jan Stanczuk, Carola-Bibiane Schönlieb, Christian Etmann  
       <i>arXiv preprint arXiv:2111.13606</i>, 2021
@@ -194,7 +124,59 @@ In parallel, I continue to work on the **connection between Riemannian geometry 
   </div>
 </div>
 
+### Education
+<div class="education-section">
+  <div class="education-entry">
+    <div class="education-label">
+      University of Cambridge
+      <div class="education-date">(Oct 2020 - Mar 2025)</div>
+    </div>
+    <div class="education-content">
+      <b>Department of Applied Mathematics</b><br>
+      PhD in Machine Learning
+    </div>
+  </div>
+  <div class="education-entry">
+    <div class="education-label">
+      University of Cambridge
+      <div class="education-date">(Oct 2016 - Oct 2020)</div>
+    </div>
+    <div class="education-content">
+      <b>Department of Engineering</b><br>
+      MEng in Information and Computer Engineering, First Class Honours
+    </div>
+  </div>
+</div>
+
+### Work Experience
+<div class="work-section">
+  <div class="work-entry">
+    <div class="work-label">University of Cambridge</div>
+    <div class="work-content">
+      <b>Postdoctoral Researcher</b> (Mar 2025 - present)
+    </div>
+  </div>
+  <div class="work-entry">
+    <div class="work-label">Google DeepMind</div>
+    <div class="work-content">
+      <b>Research Collaboration</b> (Feb 2024 - Sep 2025)
+    </div>
+  </div>
+  <div class="work-entry">
+    <div class="work-label">Huawei Technologies Research & Development (UK) Ltd</div>
+    <div class="work-content">
+      <b>AI Research Internship</b> (July 2022 - Oct 2022)
+    </div>
+  </div>
+  <div class="work-entry">
+    <div class="work-label">MediaTek Research UK Ltd</div>
+    <div class="work-content">
+      <b>AI Research Internship</b> (June 2020 - Oct 2020)
+    </div>
+  </div>
+</div>
+
 <br>
 
 ### Contact
-Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/georgios-batzolis-92577b128/) or [email](mailto:gb511@cam.ac.uk).
+Feel free to reach out via [email](mailto:gb511@cam.ac.uk), [Google Scholar](https://scholar.google.com/citations?user=IkmiaicAAAAJ), or [LinkedIn](https://www.linkedin.com/in/georgios-batzolis-92577b128/).
