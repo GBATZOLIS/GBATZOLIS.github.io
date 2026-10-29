@@ -44,7 +44,7 @@ If any of these topics interest you, feel free to reach out for a chat at [g.bat
     <div class="publication-content">
       <div class="publication-title">CoBit: Language Modeling with Bitstream Diffusion</div>
       <div class="publication-authors"><strong>Georgios Batzolis</strong>, Mark Girolami, Luca Ambrogioni</div>
-      <div class="publication-status">Accepted at NeurIPS 2026; also appeared at ICML SPIGM 2026 and the <a href="https://pengzhangzhi.github.io/NonAR-LM/">COLM 2026 workshop on Non-Autoregressive Language Models for Fast &amp; Flexible Text Generation</a>.</div>
+      <div class="publication-status">Accepted at NeurIPS 2026; also appeared at ICML SPIGM 2026 and the COLM 2026 workshop on Non-Autoregressive Language Models for Fast &amp; Flexible Text Generation.</div>
       <br>
       <a href="https://arxiv.org/pdf/2605.07013">[PDF]</a>
       <a href="https://github.com/GBATZOLIS/BitstreamDiffusion">[Code]</a>
