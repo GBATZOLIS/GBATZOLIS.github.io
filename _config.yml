@@ -6,9 +6,9 @@ title: Georgios Batzolis # the website title (if blank, full name will be used i
 first_name: Georgios
 middle_name: B.
 last_name: Batzolis
-email: gb511@cam.ac.uk
+email: g.batz97@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  4th year PhD student at the Department of Applied Mathematics and Theoretical Physics at the University of Cambridge. Researching generative modeling, particularly on Diffusion models and VAEs.
+  Georgios Batzolis, Research Scientist at Devotion AI Labs. Research interests include diffusion language models, generative modeling, and data geometry.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -111,7 +111,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Get in touch to chat about diffusion models and geometry.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

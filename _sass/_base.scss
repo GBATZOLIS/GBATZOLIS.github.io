@@ -1133,7 +1133,8 @@ ninja-keys::part(ninja-input-wrapper) {
 .publication-entry {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 15px;
+  margin-bottom: 1.75rem;
+  gap: 1rem;
 }
 
 .publication-label {
@@ -1141,7 +1142,7 @@ ninja-keys::part(ninja-input-wrapper) {
   color: #000;
   font-weight: bold;
   padding: 5px 10px;
-  margin-right: 10px;
+  margin-right: 0;
   border-radius: 3px;
   flex-shrink: 0; /* Prevents the label from shrinking */
   width: 100px; /* Fixed width for alignment */
@@ -1150,10 +1151,29 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .publication-content {
   flex: 1;
+  min-width: 0;
+  line-height: 1.6;
 }
 
-.publication-content b {
+.publication-title {
   font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.4rem;
+}
+
+.publication-authors {
+  margin-bottom: 0.3rem;
+}
+
+.publication-status,
+.publication-note {
+  font-size: 0.95em;
+  color: var(--global-text-color-light);
+}
+
+.publication-status {
+  font-style: italic;
 }
 
 .publication-content a {
@@ -1170,33 +1190,63 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: transparent;
 }
 
-.education-section, .work-section, .research-visit-section {
+.education-section,
+.work-section,
+.research-visit-section {
   margin-bottom: 2em;
   list-style-type: none; /* Remove bullet points */
   padding: 0; /* Remove padding */
 }
 
-.education-entry, .work-entry, .research-visit-entry {
+.education-entry,
+.work-entry,
+.research-visit-entry {
   display: flex;
   margin-bottom: 1em;
 }
 
-.education-label, .work-label, .research-visit-label {
+.education-label,
+.work-label,
+.research-visit-label {
   flex: 0 0 250px; /* Adjust the width as needed */
   font-weight: bold;
 }
 
-.education-date, .research-visit-date {
+.education-date,
+.research-visit-date {
   font-weight: normal;
   font-size: 0.9em; /* Adjust font size as needed */
 }
 
-.education-content, .work-content, .research-visit-content {
+.education-content,
+.work-content,
+.research-visit-content {
   flex: 1;
 }
 
 /* Remove the yellow bullet points */
-.education-label::before, .work-label::before, .research-visit-label::before {
+.education-label::before,
+.work-label::before,
+.research-visit-label::before {
   content: none;
 }
 
+// Stack labels and entries on small screens so titles and dates remain readable.
+@media (max-width: 575.98px) {
+  .publication-entry,
+  .education-entry,
+  .work-entry {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .publication-label {
+    width: auto;
+    align-self: flex-start;
+  }
+
+  .education-label,
+  .work-label {
+    flex: auto;
+  }
+}
